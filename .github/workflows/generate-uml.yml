@@ -32,4 +32,5 @@ jobs:
       with:
         name: uml-diagrams
         path: |
-          $(find . -name '*.png')
+          ./classes_cms.png
+          ./packages_cms.png

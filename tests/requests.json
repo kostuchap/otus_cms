@@ -1,0 +1,80 @@
+{
+  "component_type": "text",
+  "params": {
+    "text": "Hello, world!"
+  }
+}
+
+c
+
+{
+  "component_type": "form",
+  "params": {
+    "fields": [
+      {
+        "type": "text",
+        "name": "name"
+      }
+    ]
+  }
+}
+
+
+{
+  "components": [
+    {
+      "component_type": "text",
+      "params": {
+        "text": "Hello, world!"
+      }
+    },
+    {
+      "component_type": "image",
+      "params": {
+        "url": "image.jpg",
+        "alt": "Image"
+      }
+    },
+    {
+      "component_type": "form",
+      "params": {
+        "fields": [
+          {
+            "type": "text",
+            "name": "name"
+          }
+        ]
+      }
+    }
+  ]
+}
+
+
+{
+  "components": [
+    {
+      "component_type": "text",
+      "params": {
+        "text": "Hello, world!"
+      }
+    },
+    {
+      "component_type": "image",
+      "params": {
+        "url": "image.jpg",
+        "alt": "Image"
+      }
+    },
+    {
+      "component_type": "form",
+      "params": {
+        "fields": [
+          {
+            "type": "text",
+            "name": "name"
+          }
+        ]
+      }
+    }
+  ]
+}

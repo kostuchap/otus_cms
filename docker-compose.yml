@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+
+  componentservice:
+    build: ./microservices/component_service
+    ports:
+      - "5001:5001"
+    environment:
+      - PYTHONPATH=/app
+    volumes:
+      - ./:/app
+
+  pagecontrollerservice:
+    build: ./microservices/page_controller_service
+    ports:
+      - "5005:5005"
+    environment:
+      - PYTHONPATH=/app
+    volumes:
+      - ./:/app

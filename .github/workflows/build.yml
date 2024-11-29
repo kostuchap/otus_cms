@@ -29,6 +29,12 @@ jobs:
         run: |
           pyreverse -o png -p otus_cms .
 
+      - name: Upload UML diagrams
+        uses: actions/upload-artifact@v2
+        with:
+          name: uml-diagrams
+          path: *.png
+
       - name: run pytest
         run: |
           pip install pytest
